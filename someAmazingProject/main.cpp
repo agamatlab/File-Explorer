@@ -11,7 +11,6 @@ using namespace std::filesystem;
 
 #pragma warning( disable : 4996 )
 
-//string dir = R"(C:\Users\user\Desktop\MINI ENVO)";
 string dir = getenv("USERPROFILE");
 pair<int, string> selectedFile;
 string& s_fileName = selectedFile.second;
